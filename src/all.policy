@@ -1,0 +1,12 @@
+grant codeBase "file:/C:/Users/Arpit/Desktop/parallel project/Banking Application/src/"{
+    permission java.security.AllPermission;
+    permission java.net.SocketPermission "localhost:1099", "connect, resolve";
+    permission java.net.SocketPermission "127.0.0.1:1099", "connect, resolve";
+    permission java.net.SocketPermission "localhost:80", "connect, resolve";
+    permission java.net.SocketPermission "192.168.43.158:1099", "connect, resolve";
+    permission java.net.SocketPermission "192.168.43.158:1099", "connect, resolve";
+    permission java.net.SocketPermission "192.168.43.158:7777", "connect, resolve";
+    permission java.net.SocketPermission "192.168.43.158:7777", "connect, resolve";
+    permission java.net.SocketPermission "192.168.43.158:80", "connect, resolve";
+
+};

@@ -1,0 +1,4 @@
+java client.ATM localhost 7777 inquiry 88769912 616874
+
+
+java client.ATM 192.168.43.158 7777 login user1 pass1
